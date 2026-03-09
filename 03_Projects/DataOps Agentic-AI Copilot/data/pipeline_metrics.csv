@@ -1,0 +1,6 @@
+date,pipeline_name,records_processed,error_count,latency_seconds
+2026-03-01,trip_ingestion,10000,2,30
+2026-03-02,trip_ingestion,12000,1,28
+2026-03-03,trip_ingestion,15000,5,60
+2026-03-04,trip_ingestion,11000,0,25
+2026-03-05,trip_ingestion,17000,3,55

@@ -1,0 +1,9 @@
+timestamp,service,job_id,error_type,error_message,severity
+2026-03-01 10:00:00,ingestion,job_101,DUPLICATE_KEY,duplicate key value violates unique constraint,high
+2026-03-01 10:05:00,transform,job_102,MISSING_COLUMN,column customer_age does not exist,high
+2026-03-01 10:10:00,load,job_103,TIMEOUT,connection timeout during load,medium
+2026-03-01 10:15:00,quality,job_104,NULL_SPIKE,null values exceeded threshold,high
+2026-03-01 10:20:00,ingestion,job_105,SCHEMA_DRIFT,unexpected column txn_mode detected,medium
+2026-03-01 10:25:00,transform,job_106,TYPE_MISMATCH,invalid type for column amount,high
+2026-03-01 10:30:00,load,job_107,DUPLICATE_KEY,duplicate transaction id found,high
+2026-03-01 10:35:00,quality,job_108,OUTLIER_SPIKE,transaction amount spike detected,medium
